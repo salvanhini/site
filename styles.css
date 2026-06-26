@@ -1,41 +1,43 @@
 /* ========================================
    HYALU BRASIL - ESTILOS GERAIS
-   Design Corporativo B2B - Saúde & Importação
+   Design Premium Corporativo B2B - Saúde & Importação
    ======================================== */
 
 /* Variáveis de Cores e Tipografia */
 :root {
-    /* Cores Principais */
-    --color-primary: #0A3D62;        /* Azul escuro corporativo */
-    --color-primary-light: #165B8C;  /* Azul médio */
-    --color-primary-dark: #062840;   /* Azul muito escuro */
+    /* Cores Principais - Paleta Premium */
+    --color-primary: #0F172A;        /* Navy escuro profundo */
+    --color-primary-light: #1E293B;  /* Slate */
+    --color-primary-dark: #020617;   /* Quase preto */
     
-    --color-secondary: #00A8B5;      /* Turquesa/azul saúde */
-    --color-secondary-light: #00C4D4;
-    --color-secondary-dark: #008A96;
+    --color-secondary: #0EA5E9;      /* Azul céu sofisticado */
+    --color-secondary-light: #38BDF8;
+    --color-secondary-dark: #0284C7;
     
-    --color-accent: #3C7CA5;         /* Azul claro destaque */
+    --color-accent: #C4B5FD;         /* Lavanda sutil */
+    --color-gold: #D4AF37;           /* Dourado premium */
+    --color-gold-light: #E5C558;
     
     /* Cores Neutras */
     --color-white: #FFFFFF;
-    --color-gray-50: #F8F9FA;
-    --color-gray-100: #F1F3F5;
-    --color-gray-200: #E9ECEF;
-    --color-gray-300: #DEE2E6;
-    --color-gray-400: #CED4DA;
-    --color-gray-500: #ADB5BD;
-    --color-gray-600: #6C757D;
-    --color-gray-700: #495057;
-    --color-gray-800: #343A40;
-    --color-gray-900: #212529;
+    --color-gray-50: #F8FAFC;
+    --color-gray-100: #F1F5F9;
+    --color-gray-200: #E2E8F0;
+    --color-gray-300: #CBD5E1;
+    --color-gray-400: #94A3B8;
+    --color-gray-500: #64748B;
+    --color-gray-600: #475569;
+    --color-gray-700: #334155;
+    --color-gray-800: #1E293B;
+    --color-gray-900: #0F172A;
     
     /* Cores Funcionais */
-    --color-success: #28A745;
+    --color-success: #10B981;
     --color-whatsapp: #25D366;
     
     /* Tipografia */
-    --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    --font-display: 'Playfair Display', Georgia, serif;
+    --font-primary: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-display: 'Cormorant Garamond', Georgia, serif;
     
     /* Espaçamento */
     --spacing-xs: 0.5rem;
@@ -43,25 +45,27 @@
     --spacing-md: 1.5rem;
     --spacing-lg: 2rem;
     --spacing-xl: 3rem;
-    --spacing-2xl: 4rem;
-    --spacing-3xl: 6rem;
+    --spacing-2xl: 5rem;
+    --spacing-3xl: 8rem;
     
     /* Bordas */
-    --border-radius-sm: 4px;
-    --border-radius-md: 8px;
-    --border-radius-lg: 12px;
+    --border-radius-sm: 6px;
+    --border-radius-md: 12px;
+    --border-radius-lg: 20px;
+    --border-radius-xl: 28px;
     --border-radius-full: 9999px;
     
-    /* Shadows */
-    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
-    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
-    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
-    --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.15);
+    /* Shadows - Mais sutis e elegantes */
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.08);
+    --shadow-xl: 0 20px 48px rgba(0, 0, 0, 0.1);
+    --shadow-2xl: 0 32px 64px rgba(0, 0, 0, 0.12);
     
     /* Transições */
-    --transition-fast: 0.15s ease;
-    --transition-base: 0.3s ease;
-    --transition-slow: 0.5s ease;
+    --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-base: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Reset e Base */
