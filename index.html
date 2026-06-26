@@ -41,40 +41,75 @@
 
     <!-- Hero Section / Destaque Inicial -->
     <section id="home" class="hero">
-        <div class="hero-particles">
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
+        <!-- Imagem de Fundo Premium -->
+        <div class="hero-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1579165466741-7f35a4755657?w=1920&q=80" alt="Laboratório de pesquisa em saúde - Ciência e inovação" class="hero-background-image">
+            <div class="hero-image-overlay"></div>
         </div>
-        <div class="hero-overlay"></div>
+        
+        <!-- Partículas Animadas -->
+        <div class="hero-particles">
+            <div class="particle particle-1"></div>
+            <div class="particle particle-2"></div>
+            <div class="particle particle-3"></div>
+            <div class="particle particle-4"></div>
+            <div class="particle particle-5"></div>
+            <div class="particle particle-6"></div>
+        </div>
+        
         <div class="container hero-content">
-            <div class="hero-badge">
+            <div class="hero-badge animate-fade-in">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
                 <span>Parceiro Estratégico em Importação de Saúde</span>
             </div>
-            <h1 class="hero-title">
-                Facilitação Estratégica em<br>Importação de Produtos para Saúde
+            
+            <h1 class="hero-title animate-slide-up">
+                Facilitação Estratégica em<br><span class="highlight">Importação de Produtos para Saúde</span>
             </h1>
-            <p class="hero-subtitle">
+            
+            <p class="hero-subtitle animate-slide-up delay-1">
                 A Hyalu Brasil é sua ponte estratégica para o mercado brasileiro. Conectamos inovações globais em saúde com segurança regulatória, agilidade logística e parceria de longo prazo.
             </p>
-            <div class="hero-cta">
-                <a href="#portfolio" class="btn btn-primary btn-large">Conheça nosso Portfólio</a>
+            
+            <div class="hero-cta animate-slide-up delay-2">
+                <a href="#portfolio" class="btn btn-primary btn-large">
+                    <span>Conheça nosso Portfólio</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                </a>
                 <a href="#sobre" class="btn btn-outline btn-large">Saiba Mais</a>
             </div>
+            
+            <!-- Stats Rápidos -->
+            <div class="hero-stats animate-fade-in delay-3">
+                <div class="hero-stat-item">
+                    <span class="stat-value">+10</span>
+                    <span class="stat-label">Anos de Expertise</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="hero-stat-item">
+                    <span class="stat-value">100%</span>
+                    <span class="stat-label">Conformidade ANVISA</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="hero-stat-item">
+                    <span class="stat-value">+50</span>
+                    <span class="stat-label">Parceiros Atendidos</span>
+                </div>
+            </div>
         </div>
-        <div class="hero-scroll">
-            <span>Scroll</span>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-            </svg>
+        
+        <!-- Scroll Indicator -->
+        <div class="hero-scroll animate-bounce">
+            <span>Explore</span>
+            <div class="scroll-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                </svg>
+            </div>
         </div>
     </section>
 

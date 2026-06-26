@@ -6,12 +6,7 @@ __pycache__/
 *.obj
 dist/
 build/
-*.class
-*.exe
-*.dll
-*.so
-*.a
-*.out
+target/
 
 # Dependencies
 .venv/
@@ -19,19 +14,21 @@ venv/
 node_modules/
 .mypy_cache/
 .pytest_cache/
-target/
 .gradle/
+julia-*/
+zig*/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 *.swo
+*.out
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
